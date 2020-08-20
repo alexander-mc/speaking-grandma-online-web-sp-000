@@ -16,6 +16,7 @@ def speak_to_grandma(text)
   response = ""
   if text == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elsif text == ""
+  elsif text == "Hi Nana, how are you?"
+    return ""
   end
 end
