@@ -13,6 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(text)
+  response = ""
   if text == "I LOVE YOU GRANDMA"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    response = "I LOVE YOU TOO PUMPKIN!"
 end
