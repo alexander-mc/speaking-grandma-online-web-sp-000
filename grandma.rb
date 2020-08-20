@@ -20,6 +20,7 @@ def speak_to_grandma(text)
     return "HUH?! SPEAK UP, SONNY!"
   elsif text == "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
-  elsif text == ""
+  elsif text == "WHAT DID YOU EAT TODAY?"
+    return ""
   end
 end
